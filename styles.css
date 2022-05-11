@@ -178,3 +178,53 @@ nav > ul > li {
     font-size: 28px;
     font-weight: 700;
 }
+
+/* Call to action */
+.cta-wrapper {
+    margin: 0;
+    padding: 5rem;
+}
+
+#call-to-action {
+    width: var(--width-percent);
+    max-width: var(--max-content-width);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+#cta-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cta-content > h3 {
+    margin: 0;
+}
+
+#cta-content > p {
+    margin: 0;
+}
+
+#cta-sign-up {
+    padding: 0 2em;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#cta-sign-up:hover {
+    cursor: pointer;
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
