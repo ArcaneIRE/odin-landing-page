@@ -9,6 +9,7 @@ body {
 }
 
 a {
+    color: #3882F6;
     text-decoration: none;
 }
 /*Header*/
@@ -222,6 +223,11 @@ nav > ul > li {
 
 #cta-content > p {
     margin: 0;
+}
+
+#cta-content >p > a {
+    font-weight: 600;
+    color: white;
 }
 
 #cta-sign-up {
