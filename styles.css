@@ -97,3 +97,54 @@ nav > ul > li {
     height: auto;
     object-fit: cover;
 }
+
+/* Benefit cards */
+.benefits {
+    width: var(--width-percent)-10%;
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.benefits-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#benefits-title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.benefit-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.benefit-card {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+.benefit-card > img {
+    content: url(https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    width: max(150px, 10vw);
+    height: max(150px, 10vw);
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+.benefit-card > p {
+    margin: 0;
+    text-align: center;
+    color: #1F2937;
+}
