@@ -9,11 +9,11 @@ body {
 }
 
 /*Header*/
-header {
+.header-wrapper {
     background-color: #1F2937;
 }
 
-.header-wrapper {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,11 +46,11 @@ nav > ul > li {
 }
 
 /* Hero Section */
-.hero {
+.hero-wrapper {
     background-color: #1F2937;
 }
 
-.hero-wrapper {
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +92,7 @@ nav > ul > li {
     font-size: 1rem;
 }
 
-.hero-wrapper > img {
+.hero > img {
     flex: 1 1 0;
     width: 100%;
     height: auto;
@@ -100,14 +100,14 @@ nav > ul > li {
 }
 
 /* Benefit cards */
-.benefits {
+.benefits-wrapper {
     width: var(--width-percent)-10%;
     max-width: var(--max-content-width);
     margin: 0 auto;
     padding: 3rem;
 }
 
-.benefits-wrapper {
+.benefits {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,12 +151,12 @@ nav > ul > li {
 }
 
 /* Quote Section */
-#quote {
+.quote-wrapper {
     margin: 0;
     background-color: #E5E7EB;
 }
 
-.quote-wrapper {
+#quote {
     width: calc(var(--width-percent) - 20%);
     max-width: var(--max-content-width);
     display: flex;
