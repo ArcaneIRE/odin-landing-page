@@ -9,7 +9,7 @@ body {
 }
 
 /*Header*/
-.header-wrapper {
+#header-wrapper {
     background-color: #1F2937;
 }
 
@@ -46,11 +46,11 @@ nav > ul > li {
 }
 
 /* Hero Section */
-.hero-wrapper {
+#hero-wrapper {
     background-color: #1F2937;
 }
 
-.hero {
+#hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +98,7 @@ nav > ul > li {
     color: #3882F6;
 }
 
-.hero > img {
+#hero > img {
     flex: 1 1 0;
     width: 100%;
     height: auto;
@@ -106,14 +106,14 @@ nav > ul > li {
 }
 
 /* Benefit cards */
-.benefits-wrapper {
+#benefits-wrapper {
     width: var(--width-percent)-10%;
     max-width: var(--max-content-width);
     margin: 0 auto;
     padding: 3rem;
 }
 
-.benefits {
+#benefits {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +127,7 @@ nav > ul > li {
     color: #1F2937;
 }
 
-.benefit-cards {
+#benefit-cards {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -157,7 +157,7 @@ nav > ul > li {
 }
 
 /* Quote Section */
-.quote-wrapper {
+#quote-wrapper {
     margin: 0;
     background-color: #E5E7EB;
 }
@@ -186,7 +186,7 @@ nav > ul > li {
 }
 
 /* Call to action */
-.cta-wrapper {
+#cta-wrapper {
     margin: 0;
     padding: 5rem;
 }
