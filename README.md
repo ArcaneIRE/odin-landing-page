@@ -12,3 +12,4 @@ A simple landing page made utilising flexbox. The first project from the [Odin P
 [Jeremy Bezanger](https://unsplash.com/@unarchive)  
 [Austin Distel](https://unsplash.com/@austindistel)  
 [Cytonn Photography](https://unsplash.com/@cytonn_photography)  
+[Bruce Mars](https://unsplash.com/@brucemars)
