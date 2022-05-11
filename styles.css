@@ -228,3 +228,13 @@ nav > ul > li {
     background-color: #F9FAF8;
     color: #3882F6;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
