@@ -1,3 +1,8 @@
+:root {
+    --width-percent: 85%;
+    --max-content-width: 70rem;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -13,8 +18,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 80%;
-    max-width: 60rem;
+    width: var(--width-percent);
+    max-width: var(--max-content-width);
 }
 
 #header-title {
